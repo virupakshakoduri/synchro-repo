@@ -1,0 +1,51 @@
+/* Make header layout horizontal with space between logo and links */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #006039; /* Rolex green */
+}
+
+/* Rolex heading styling */
+h1 {
+  font-family: 'Times New Roman', serif;
+  font-size: 36px;
+  color: #D4AF37; /* Rolex gold */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 2em;
+}
+
+.logo-title{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Logo image styling */
+.rolex-logo {
+  width: 60px;
+  height: auto;
+  vertical-align: middle;
+  background-color:  #006039;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation links on right */
+.nav-links a {
+  text-decoration: none;
+  color: #D4AF37; /* Gold */
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: white;
+}
